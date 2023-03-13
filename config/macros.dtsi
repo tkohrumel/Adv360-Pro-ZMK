@@ -1,9 +1,3 @@
-macro_mathpix-snip: macro_mathpix-snip{
-compatible = "zmk,behavior-macro";
-label = "macro_mathpix-snip";
-#binding-cells = <0>;
-bindings = <&kp LEFT_COMMAND>, <&kp LEFT_CONTROL>, <&kp M>;
-};
 macro_ss-edit: macro_ss-edit{
 compatible = "zmk,behavior-macro";
 label = "macro_ss-edit";
