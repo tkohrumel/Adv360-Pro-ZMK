@@ -1,3 +1,15 @@
+macro_cbscreenshot: macro_cbscreenshot{
+compatible = "zmk,behavior-macro";
+label = "macro_cbscreenshot";
+#binding-cells = <0>;
+bindings = <&kt LCMD>, <&kt LCTRL>, <&kt LEFT_SHIFT>, <&kp NUMBER_4>;
+};
+macro_icode: macro_icode{
+compatible = "zmk,behavior-macro";
+label = "macro_icode";
+#binding-cells = <0>;
+bindings = <&kp GRAVE>, <&kp GRAVE>, <&kp LEFT>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
