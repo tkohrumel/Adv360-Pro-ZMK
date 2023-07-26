@@ -1,3 +1,15 @@
+macro_mathshot: macro_mathshot{
+compatible = "zmk,behavior-macro";
+label = "macro_mathshot";
+#binding-cells = <0>;
+bindings = <&kt LCMD>, <&kt LEFT_CONTROL>, <&kp M>, <&kt LCMD>, <&kt LCTRL>;
+};
+macro_fancyss: macro_fancyss{
+compatible = "zmk,behavior-macro";
+label = "macro_fancyss";
+#binding-cells = <0>;
+bindings = <&kt LEFT_COMMAND>, <&kt LEFT_ALT>, <&kp NUMBER_5>, <&kt LCMD>, <&kt LEFT_ALT>;
+};
 macro_cbscreenshot: macro_cbscreenshot{
 compatible = "zmk,behavior-macro";
 label = "macro_cbscreenshot";
