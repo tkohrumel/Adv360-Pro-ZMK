@@ -2,7 +2,7 @@ macro_cbscreenshot: macro_cbscreenshot{
 compatible = "zmk,behavior-macro";
 label = "macro_cbscreenshot";
 #binding-cells = <0>;
-bindings = <&kt LCMD>, <&kt LCTRL>, <&kt LEFT_SHIFT>, <&kp NUMBER_4>;
+bindings = <&kt LCMD>, <&kt LCTRL>, <&kt LEFT_SHIFT>, <&kp NUMBER_4>, <&kt LCMD>, <&kt LCTRL>, <&kt LEFT_SHIFT>;
 };
 macro_icode: macro_icode{
 compatible = "zmk,behavior-macro";
